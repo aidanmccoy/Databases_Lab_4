@@ -25,7 +25,7 @@ UPDATE List SET GPA = 3.5 where (Classroom = 120 AND Grade = 5);
 UPDATE List SET GPA = GPA + 0.3 WHERE FirstName = '''Al''';
 
 #2a)
-DELETE FROM Data WHERE !(((Year = 1979 OR 1980) AND MPG >= 20) OR (MPG > 26 AND Horsepower > 110) OR (Cylinders = 8 AND Accelerate < 10);
+DELETE FROM Data WHERE !(((Year = 1979 OR 1980) AND MPG >= 20) OR (MPG > 26 AND Horsepower > 110) OR (Cylinders = 8 AND Accelerate < 10));
 
 #2b)
 ALTER TABLE Data DROP Edispl, DROP Horsepower, DROP Weight;
